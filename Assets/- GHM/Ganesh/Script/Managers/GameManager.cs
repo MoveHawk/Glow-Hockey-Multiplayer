@@ -1,6 +1,6 @@
 // Scripts/Managers/GameManager.cs
 using UnityEngine;
-using UnityEngine.UI;
+using TMPro;
 
 public class GameManager : MonoBehaviour
 {
@@ -8,9 +8,9 @@ public class GameManager : MonoBehaviour
 
     [Header("Score Settings")]
     public int maxScore = 7;
-    public Text player1ScoreText;
-    public Text player2ScoreText;
-    public Text winText;
+    public TMP_Text player1ScoreText;
+    public TMP_Text player2ScoreText;
+    public TMP_Text winText;
 
     private int player1Score = 0;
     private int player2Score = 0;
